@@ -1,5 +1,6 @@
 package jpabook.jpashop.service;
 
+import java.util.List;
 import jpabook.jpashop.domain.Delivery;
 import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.domain.Order;
@@ -58,5 +59,10 @@ public class OrderService {
     order.cancel();
   }
 
-  // 검색
+  /**
+   * 검색
+   */
+//  public List<Order> findOrders(OrderSearch orderSearch) {
+//    return orderRepository.findAll(orderSearch)
+//  }
 }
